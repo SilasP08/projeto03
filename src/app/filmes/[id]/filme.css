@@ -1,0 +1,54 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    font-family: "Inter", sans-serif;
+    width: 80vw;
+    margin: auto;
+    flex-direction: column;
+}
+
+main h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+.filme-conteiner{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.filme-info {
+    padding: 10px;
+    border: 1px solid;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+img {
+    height: auto;
+    width: 500px;
+    place-self: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.filme {
+    max-width: 500px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.filme h2 {
+    color: aliceblue;
+}
+.filme p {
+    color: aliceblue;
+    font-weight: bold;
+}
