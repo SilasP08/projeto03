@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import dados from "@/filmes.json";
 import CardFilme from "@/components/cardFilme";
 
