@@ -29,7 +29,7 @@ export default function Produto() {
                             <p>Descrição: {produto.description}</p>
                             <p>Marca: {produto.brand}</p>
                             <p><span>Nota: {produto.rating}</span><span>Estoque: {produto.stock}</span></p>
-        
+                            <button className="btn-comprar">Comprar</button>
                         </div>
                     </div>
                 </div>
