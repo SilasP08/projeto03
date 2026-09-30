@@ -38,8 +38,6 @@ main h1 {
     background: #181818;
     border-radius: 15px;
     padding: 25px;
-
-    transition: transform 0.3s ease;
 }
 
 .produto-conteiner img:hover {
@@ -85,10 +83,6 @@ main h1 {
     font-weight: 700;
 
     cursor: pointer;
-
-    box-shadow: 0 8px 25px rgba(124, 58, 237, 0.25);
-
-    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
 }
 
 .desconto {
