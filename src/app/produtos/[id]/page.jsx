@@ -25,10 +25,10 @@ export default function Produto() {
                     <div className="produto-info">
                         <div className="produto">
                             <h2>{produto.title} <br/>Categoria: {produto.category}</h2>
-                            <p>Preço: ${produto.price}</p>
-                            <span className="desconto">
-                                Desconto: {produto.discountPercentage}%
-                            </span>
+                            <p>Preço: ${produto.price} <span className="desconto">
+                                OFF {produto.discountPercentage}%
+                            </span></p>
+                            
                             <p>Descrição: {produto.description}</p>
                             <p>Marca: {produto.brand}</p>
                             <p><span>Nota: {produto.rating}</span> <span>Estoque: {produto.stock}</span></p>
