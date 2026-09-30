@@ -24,7 +24,7 @@ export default function Produto() {
                     <img src={produto.thumbnail} alt="" />
                     <div className="produto-info">
                         <div className="produto">
-                            <h2>Categoria: {produto.category}</h2>
+                            <h2>{produto.title} <br/>Categoria: {produto.category}</h2>
                             <p>Preço: ${produto.price}</p>
                             <span className="desconto">
                                 Desconto: {produto.discountPercentage}%
